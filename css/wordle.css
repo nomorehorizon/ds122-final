@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0F0F0F;
+}
+
+h1 {
+  color: #FFF;
+  border-bottom: 1px solid #E2AE5F;
+  width: 270px;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  border: 1px solid #2E2E2E;
+  background-color: #1C1919;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 263px;
+  color: #fff;
+}
+
+button {
+  width: 283px;
+  background-color: #E2AE5F;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.correto {
+  color: green;
+}
+
+.existe {
+  color: yellow;
+}
+
+.feito {
+  color: #fff;
+}
+
+#board {
+  width: 100px;
+  margin: 30px 0;
+  padding: 100px;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: #1C1919;
+}
+
+span {
+  font-size: 40px;
+  color: #fff;
+}
